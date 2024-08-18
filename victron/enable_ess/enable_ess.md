@@ -18,7 +18,7 @@ If you use Victron Multiplus/Quatro inverter along with Pylontech battery, this 
 ![ess setup1](https://github.com/anpolimus/smarthome_docs/blob/main/victron/enable_ess/ess_setup_1.png)
 
 2. Open your inverter's config using VEConfigure3 software on Windows and disable Virtual Switch (without this step, you cant add any of Assistants)
-!(/victron/enable_ess/ess_2.png)
+![ess_setup2](/victron/enable_ess/ess_2.png)
 
 3. Add new Assitant (Select ESS in the list).
 !(/victron/enable_ess/ess_3.png)
