@@ -15,7 +15,7 @@ If you use Victron Multiplus/Quatro inverter along with Pylontech battery, this 
 ## Update
 
 1. Got to your VRM and export current config from your inverter. VRM -> Device List -> Remote VEConfigure -> Download
-!(https://github.com/anpolimus/smarthome_docs/blob/main/victron/enable_ess/ess_setup_1.png)
+![ess setup1](https://github.com/anpolimus/smarthome_docs/blob/main/victron/enable_ess/ess_setup_1.png)
 
 2. Open your inverter's config using VEConfigure3 software on Windows and disable Virtual Switch (without this step, you cant add any of Assistants)
 !(/victron/enable_ess/ess_2.png)
