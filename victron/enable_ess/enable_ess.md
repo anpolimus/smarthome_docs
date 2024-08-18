@@ -15,16 +15,16 @@ If you use Victron Multiplus/Quatro inverter along with Pylontech battery, this 
 ## Update
 
 1. Got to your VRM and export current config from your inverter. VRM -> Device List -> Remote VEConfigure -> Download
-![ess setup1](https://github.com/anpolimus/smarthome_docs/blob/main/victron/enable_ess/ess_setup_1.png)
+![ess setup1](/victron/enable_ess/ess_setup_1.png)
 
 2. Open your inverter's config using VEConfigure3 software on Windows and disable Virtual Switch (without this step, you cant add any of Assistants)
 ![ess_setup2](/victron/enable_ess/ess_2.png)
 
 3. Add new Assitant (Select ESS in the list).
-!(/victron/enable_ess/ess_3.png)
+![ess setup 3](/victron/enable_ess/ess_3.png)
 
 4. Select battery type.
-!(/victron/enable_ess/ess_4.png)
+![ess_setup 4](/victron/enable_ess/ess_4.png)
 
 Here is the summary from Victron's manual, related to the pylontech battery.
 
@@ -46,11 +46,11 @@ Due to the reliability of the grid supply and the behaviour of the sustain volta
 6. Once you've verified and checked your new configuration, you could update your original config file. You can do it by trying to close VeConfigure and saving config on exit. Please do not save config as separate file, bc it would save file to the wrong file type that VRM cant use as input config. You should also set your country on the Grid tab of the VeConfigure 3.
 
 7. Now we are ready to upload our updated config to the inverter with help of VRM. Use upload button for that.
-!(/victron/enable_ess/ess_5.png)
+![ess setup 5](/victron/enable_ess/ess_5.png)
 
 8. During configuration update inverter would shut down for a sec and you could loose your power for some time. Dont worry, it is only for a couple of seconds.
 
 9. If everything is fine, you could see new option in the VRM, saying that you now have access to the ESS configuration.
 
-!(/victron/enable_ess/ess_6.png)
-!(/victron/enable_ess/ess_7.png)
+![ess setup 6](/victron/enable_ess/ess_6.png)
+![ess setup 7](/victron/enable_ess/ess_7.png)
